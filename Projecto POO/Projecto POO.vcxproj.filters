@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Habitantes">
+      <UniqueIdentifier>{3ff5b329-715c-49f7-91d6-ecfc8be15004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Habitantes">
+      <UniqueIdentifier>{853031d5-f4b3-46a6-91f1-246f9ef4f268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Artefactos">
+      <UniqueIdentifier>{18052c77-52cb-4bec-9a32-5459cdad5349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Artefactos">
+      <UniqueIdentifier>{2a81b592-ee4f-447b-b563-9efff7657510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Diversos">
+      <UniqueIdentifier>{b9dcef5a-90d5-4ed5-a7a6-18aecdebb438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Jogo">
+      <UniqueIdentifier>{e8dd7412-fce3-406e-9040-bfbe2c7ad2be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Diversos">
+      <UniqueIdentifier>{4f3f35b3-f087-41ab-8d42-4a74e716dbdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Jogo">
+      <UniqueIdentifier>{bdf6cd2a-1059-48ad-88e1-c2704680a5e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Habitantes.h">
+      <Filter>Header Files\Habitantes</Filter>
+    </ClInclude>
+    <ClInclude Include="Campones.h">
+      <Filter>Header Files\Habitantes</Filter>
+    </ClInclude>
+    <ClInclude Include="Heroi.h">
+      <Filter>Header Files\Habitantes</Filter>
+    </ClInclude>
+    <ClInclude Include="Mineiro.h">
+      <Filter>Header Files\Habitantes</Filter>
+    </ClInclude>
+    <ClInclude Include="Soldado.h">
+      <Filter>Header Files\Habitantes</Filter>
+    </ClInclude>
+    <ClInclude Include="Artefactos.h">
+      <Filter>Header Files\Artefactos</Filter>
+    </ClInclude>
+    <ClInclude Include="Moedas.h">
+      <Filter>Header Files\Artefactos</Filter>
+    </ClInclude>
+    <ClInclude Include="Doencas.h">
+      <Filter>Header Files\Artefactos</Filter>
+    </ClInclude>
+    <ClInclude Include="Cola.h">
+      <Filter>Header Files\Artefactos</Filter>
+    </ClInclude>
+    <ClInclude Include="Espelho.h">
+      <Filter>Header Files\Artefactos</Filter>
+    </ClInclude>
+    <ClInclude Include="AMisterio.h">
+      <Filter>Header Files\Artefactos</Filter>
+    </ClInclude>
+    <ClInclude Include="HMisterio.h">
+      <Filter>Header Files\Habitantes</Filter>
+    </ClInclude>
+    <ClInclude Include="Panfletos.h">
+      <Filter>Header Files\Artefactos</Filter>
+    </ClInclude>
+    <ClInclude Include="Sardinhas.h">
+      <Filter>Header Files\Artefactos</Filter>
+    </ClInclude>
+    <ClInclude Include="Consola.h">
+      <Filter>Header Files\Diversos</Filter>
+    </ClInclude>
+    <ClInclude Include="Terreno.h">
+      <Filter>Header Files\Diversos</Filter>
+    </ClInclude>
+    <ClInclude Include="Cidades.h">
+      <Filter>Header Files\Jogo</Filter>
+    </ClInclude>
+    <ClInclude Include="Faccoes.h">
+      <Filter>Header Files\Jogo</Filter>
+    </ClInclude>
+    <ClInclude Include="Jogo.h">
+      <Filter>Header Files\Jogo</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\Diversos</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Habitantes.cpp">
+      <Filter>Source Files\Habitantes</Filter>
+    </ClCompile>
+    <ClCompile Include="Campones.cpp">
+      <Filter>Source Files\Habitantes</Filter>
+    </ClCompile>
+    <ClCompile Include="Heroi.cpp">
+      <Filter>Source Files\Habitantes</Filter>
+    </ClCompile>
+    <ClCompile Include="Mineiro.cpp">
+      <Filter>Source Files\Habitantes</Filter>
+    </ClCompile>
+    <ClCompile Include="Misterio.cpp">
+      <Filter>Source Files\Habitantes</Filter>
+    </ClCompile>
+    <ClCompile Include="Soldado.cpp">
+      <Filter>Source Files\Habitantes</Filter>
+    </ClCompile>
+    <ClCompile Include="Artefactos.cpp">
+      <Filter>Source Files\Artefactos</Filter>
+    </ClCompile>
+    <ClCompile Include="AMisterio.cpp">
+      <Filter>Source Files\Artefactos</Filter>
+    </ClCompile>
+    <ClCompile Include="Cola.cpp">
+      <Filter>Source Files\Artefactos</Filter>
+    </ClCompile>
+    <ClCompile Include="Doencas.cpp">
+      <Filter>Source Files\Artefactos</Filter>
+    </ClCompile>
+    <ClCompile Include="Espelho.cpp">
+      <Filter>Source Files\Artefactos</Filter>
+    </ClCompile>
+    <ClCompile Include="Moedas.cpp">
+      <Filter>Source Files\Artefactos</Filter>
+    </ClCompile>
+    <ClCompile Include="Panfletos.cpp">
+      <Filter>Source Files\Artefactos</Filter>
+    </ClCompile>
+    <ClCompile Include="Sardinhas.cpp">
+      <Filter>Source Files\Artefactos</Filter>
+    </ClCompile>
+    <ClCompile Include="Consola.cpp">
+      <Filter>Source Files\Diversos</Filter>
+    </ClCompile>
+    <ClCompile Include="Terreno.cpp">
+      <Filter>Source Files\Diversos</Filter>
+    </ClCompile>
+    <ClCompile Include="Cidades.cpp">
+      <Filter>Source Files\Jogo</Filter>
+    </ClCompile>
+    <ClCompile Include="Faccoes.cpp">
+      <Filter>Source Files\Jogo</Filter>
+    </ClCompile>
+    <ClCompile Include="Jogo.cpp">
+      <Filter>Source Files\Jogo</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Diversos</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
